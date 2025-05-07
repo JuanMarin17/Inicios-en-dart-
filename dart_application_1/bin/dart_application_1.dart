@@ -17,6 +17,10 @@ void main(List<String> arguments) {
   chocolate.charge();
 }
 
+/*
+Para crear una funcion en dart se inicializa con la palabra clave void o por el con trario si sabemos que tipo dato va a devolver lo inicializamos con int, String, double o bool  
+*/
+
 void greetings(String name) {
   print('Hello $name');
 }

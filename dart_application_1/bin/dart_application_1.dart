@@ -531,7 +531,7 @@ void listLoop() {
   //   print('Con el segundo for tenemos $number');
   // }
 
-  // No es recomendable usar el forEach asi 
+  // No es recomendable usar el forEach asi
   numbers.forEach((item) {
     print(item);
   });
@@ -568,6 +568,23 @@ void mapLoop() {
   names.forEach((key, value) {
     print('La clave es $key y el valor es $value');
   });
+}
+
+// Nulabilidad
+
+void nullability() {
+  String? name = "Juan";
+  name = "";
+  name = null;
+  String example2 = name ?? "Invitado";
+
+  name ??= "Pepe";
+
+  IceCream? test = IceCream();
+
+  if (name != null) {
+    print("Hola $name");
+  }
 }
 
 /*
